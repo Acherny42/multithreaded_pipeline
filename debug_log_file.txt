@@ -1,0 +1,802 @@
+generating id 256 bytes: 2 ms:1599632310382
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632310383 data:0X87 0X55                                status:VALID rate:VALID length:VALID data:VALID delta:-1
+
+logging: 1599632310383,0X90 0X0E 0X50 0XEA 0XBF 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 512 bytes: 4 ms:1599632310463
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632310463 data:0X63 0X7F 0XAF 0X0B                      status:VALID rate:VALID length:VALID data:VALID delta:-1
+
+logging: 1599632310463,0XA0 0X0E 0X8C 0X6F 0XF5 0XE1 0X7F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 512 bytes: 4 ms:1599632310536
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632310536 data:0XB9 0X4A 0XD2 0XC9                      status:INVALID rate:INVALID length:INVALID data:VALID delta:73
+
+logging: 1599632310536,0XA0 0X0E 0X97 0X29 0X5A 0X59 0X3F 0XFF 0XFF 0XFF                     ,INVALID,RATE,LENGTH
+
+generating id 768 bytes: 2 ms:1599632310615
+gen::generate_data nbytes
+detecting id:768 dlc:2 ms:1599632310615 data:0X0F 0X64                                status:VALID rate:VALID length:VALID data:VALID delta:-1
+
+logging: 1599632310615,0XB0 0X0E 0X41 0XEC 0X9F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 512 bytes: 7 ms:1599632310711
+gen::generate_data nbytes
+detecting id:512 dlc:7 ms:1599632310711 data:0X27 0XAE 0XA8 0XB2 0XF7 0X60 0X02       status:VALID rate:VALID length:VALID data:VALID delta:175
+
+logging: 1599632310711,0XA0 0X0E 0XE4 0XF5 0XD5 0X16 0X5E 0XEC 0X00 0X5F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 768 bytes: 4 ms:1599632310764
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632310764 data:0X07 0X5D 0X88 0X86                      status:VALID rate:VALID length:VALID data:VALID delta:149
+
+logging: 1599632310764,0XB0 0X0E 0X80 0XEB 0XB1 0X10 0XDF 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 512 bytes: 6 ms:1599632310856
+gen::generate_data nbytes
+detecting id:512 dlc:6 ms:1599632310856 data:0X1F 0XF7 0X54 0X69 0XC9 0X1D            status:INVALID rate:VALID length:VALID data:INVALID delta:145
+
+logging: 1599632310856,0XA0 0X0E 0XC3 0XFE 0XEA 0X8D 0X39 0X23 0XBF 0XFF 0XFF 0XFF           ,INVALID,DATA
+
+generating id 768 bytes: 0 ms:1599632310935
+gen::generate_data nbytes
+detecting id:768 dlc:0 ms:1599632310935 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:171
+
+logging: 1599632310935,0XB0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 768 bytes: 0 ms:1599632311017
+gen::generate_data nbytes
+detecting id:768 dlc:0 ms:1599632311017 data:                                         status:INVALID rate:INVALID length:INVALID data:VALID delta:82
+
+logging: 1599632311017,0XB0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,INVALID,RATE,LENGTH
+
+generating id 256 bytes: 0 ms:1599632311080
+gen::generate_data nbytes
+detecting id:256 dlc:0 ms:1599632311080 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:697
+
+logging: 1599632311080,0X90 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 768 bytes: 6 ms:1599632311163
+gen::generate_data nbytes
+detecting id:768 dlc:6 ms:1599632311163 data:0X53 0X22 0XE8 0XD2 0XD7 0X0D            status:VALID rate:VALID length:VALID data:VALID delta:146
+
+logging: 1599632311163,0XB0 0X0E 0XCA 0X64 0X5D 0X1A 0X5A 0XE1 0XBF 0XFF 0XFF 0XFF           ,VALID
+
+generating id 768 bytes: 8 ms:1599632311247
+gen::generate_data nbytes
+detecting id:768 dlc:8 ms:1599632311247 data:0X60 0X41 0X29 0XFB 0X60 0X20 0X4F 0XCA  status:INVALID rate:INVALID length:VALID data:VALID delta:84
+
+logging: 1599632311247,0XB0 0X0F 0X0C 0X08 0X25 0X3F 0X6C 0X04 0X09 0XF9 0X5F 0XFF 0XFF 0XFF ,INVALID,RATE
+
+generating id 512 bytes: 5 ms:1599632311333
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632311333 data:0X44 0XD4 0XFB 0X04 0XE2                 status:VALID rate:VALID length:VALID data:VALID delta:477
+
+logging: 1599632311333,0XA0 0X0E 0XA8 0X9A 0X9F 0X60 0X9C 0X5F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 768 bytes: 7 ms:1599632311396
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632311396 data:0X05 0XE1 0XFD 0X58 0X03 0XE5 0X2B       status:VALID rate:VALID length:VALID data:VALID delta:149
+
+logging: 1599632311396,0XB0 0X0E 0XE0 0XBC 0X3F 0XAB 0X00 0X7C 0XA5 0X7F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 256 bytes: 5 ms:1599632311486
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632311486 data:0X10 0X88 0X65 0X51 0XB1                 status:VALID rate:VALID length:VALID data:VALID delta:406
+
+logging: 1599632311486,0X90 0X0E 0XA2 0X11 0X0C 0XAA 0X36 0X3F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 768 bytes: 1 ms:1599632311551
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632311551 data:0XAF                                     status:VALID rate:VALID length:VALID data:VALID delta:155
+
+logging: 1599632311551,0XB0 0X0E 0X35 0XFF 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 512 bytes: 8 ms:1599632311603
+gen::generate_data nbytes
+detecting id:512 dlc:8 ms:1599632311603 data:0XD7 0XFF 0XF0 0XD2 0X03 0XD2 0X7B 0X22  status:VALID rate:VALID length:VALID data:VALID delta:270
+
+logging: 1599632311603,0XA0 0X0F 0X1A 0XFF 0XFE 0X1A 0X40 0X7A 0X4F 0X64 0X5F 0XFF 0XFF 0XFF ,VALID
+
+generating id 256 bytes: 4 ms:1599632311683
+gen::generate_data nbytes
+detecting id:256 dlc:4 ms:1599632311683 data:0XE6 0XD9 0X06 0XCB                      status:VALID rate:VALID length:VALID data:VALID delta:197
+
+logging: 1599632311683,0X90 0X0E 0X9C 0XDB 0X20 0XD9 0X7F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 512 bytes: 3 ms:1599632311742
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632311742 data:0X09 0XF1 0X47                           status:VALID rate:VALID length:VALID data:VALID delta:139
+
+logging: 1599632311742,0XA0 0X0E 0X61 0X3E 0X28 0XFF 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 768 bytes: 3 ms:1599632311835
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632311835 data:0XCF 0XF5 0XCA                           status:VALID rate:VALID length:VALID data:VALID delta:284
+
+logging: 1599632311835,0XB0 0X0E 0X79 0XFE 0XB9 0X5F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 256 bytes: 5 ms:1599632311913
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632311913 data:0X9A 0X48 0X84 0X8B 0X1A                 status:VALID rate:VALID length:VALID data:VALID delta:230
+
+logging: 1599632311913,0X90 0X0E 0XB3 0X49 0X10 0X91 0X63 0X5F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 256 bytes: 6 ms:1599632311963
+gen::generate_data nbytes
+detecting id:256 dlc:6 ms:1599632311963 data:0XAA 0X46 0X16 0XAD 0X2C 0XEF            status:INVALID rate:INVALID length:VALID data:VALID delta:50
+
+logging: 1599632311963,0X90 0X0E 0XD5 0X48 0XC2 0XD5 0XA5 0X9D 0XFF 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 768 bytes: 3 ms:1599632312043
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632312043 data:0X95 0XB6 0XFC                           status:INVALID rate:VALID length:INVALID data:VALID delta:208
+
+logging: 1599632312043,0XB0 0X0E 0X72 0XB6 0XDF 0X9F 0XFF 0XFF 0XFF                          ,INVALID,LENGTH
+
+generating id 512 bytes: 5 ms:1599632312104
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632312104 data:0XC9 0XF6 0X3A 0XBE 0XC0                 status:VALID rate:VALID length:VALID data:VALID delta:362
+
+logging: 1599632312104,0XA0 0X0E 0XB9 0X3E 0XC7 0X57 0XD8 0X1F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 256 bytes: 3 ms:1599632312163
+gen::generate_data nbytes
+detecting id:256 dlc:3 ms:1599632312163 data:0X53 0X77 0XC9                           status:VALID rate:VALID length:VALID data:VALID delta:200
+
+logging: 1599632312163,0X90 0X0E 0X6A 0X6E 0XF9 0X3F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 512 bytes: 3 ms:1599632312225
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632312225 data:0X3B 0X28 0XFB                           status:VALID rate:VALID length:VALID data:VALID delta:121
+
+logging: 1599632312225,0XA0 0X0E 0X67 0X65 0X1F 0X7F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 256 bytes: 8 ms:1599632312289
+gen::generate_data nbytes
+detecting id:256 dlc:8 ms:1599632312289 data:0XAE 0X2E 0X5C 0XA6 0X21 0XF1 0X5D 0X1E  status:VALID rate:VALID length:VALID data:VALID delta:126
+
+logging: 1599632312289,0X90 0X0F 0X15 0XC5 0XCB 0X94 0XC4 0X3E 0X2B 0XA3 0XDF 0XFF 0XFF 0XFF ,VALID
+
+generating id 512 bytes: 3 ms:1599632312373
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632312373 data:0X41 0X50 0XC3                           status:INVALID rate:VALID length:INVALID data:VALID delta:148
+
+logging: 1599632312373,0XA0 0X0E 0X68 0X2A 0X18 0X7F 0XFF 0XFF 0XFF                          ,INVALID,LENGTH
+
+generating id 768 bytes: 7 ms:1599632312454
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632312455 data:0X2F 0X55 0XCE 0XA6 0X1F 0XAC 0X38       status:VALID rate:VALID length:VALID data:VALID delta:412
+
+logging: 1599632312455,0XB0 0X0E 0XE5 0XEA 0XB9 0XD4 0XC3 0XF5 0X87 0X1F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 8 ms:1599632312546
+gen::generate_data nbytes
+detecting id:512 dlc:8 ms:1599632312546 data:0X6C 0X6A 0X9F 0X14 0X18 0XCD 0X70 0XBF  status:VALID rate:VALID length:VALID data:VALID delta:173
+
+logging: 1599632312546,0XA0 0X0F 0X0D 0X8D 0X53 0XE2 0X83 0X19 0XAE 0X17 0XFF 0XFF 0XFF 0XFF ,VALID
+
+generating id 768 bytes: 1 ms:1599632312622
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632312622 data:0X0C                                     status:VALID rate:VALID length:VALID data:VALID delta:167
+
+logging: 1599632312622,0XB0 0X0E 0X21 0X9F 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 512 bytes: 2 ms:1599632312712
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632312712 data:0X1A 0XC7                                status:VALID rate:VALID length:VALID data:VALID delta:166
+
+logging: 1599632312712,0XA0 0X0E 0X43 0X58 0XFF 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 768 bytes: 2 ms:1599632312796
+gen::generate_data nbytes
+detecting id:768 dlc:2 ms:1599632312796 data:0XD4 0X48                                status:VALID rate:VALID length:VALID data:VALID delta:174
+
+logging: 1599632312796,0XB0 0X0E 0X5A 0X89 0X1F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 768 bytes: 1 ms:1599632312879
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632312879 data:0X4C                                     status:INVALID rate:INVALID length:VALID data:VALID delta:83
+
+logging: 1599632312879,0XB0 0X0E 0X29 0X9F 0XFF 0XFF 0XFF                                    ,INVALID,RATE
+
+generating id 768 bytes: 7 ms:1599632312980
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632312980 data:0X37 0X88 0X28 0XA1 0X27 0X3D 0XB9       status:VALID rate:VALID length:VALID data:VALID delta:101
+
+logging: 1599632312980,0XB0 0X0E 0XE6 0XF1 0X05 0X14 0X24 0XE7 0XB7 0X3F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 256 bytes: 2 ms:1599632313075
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632313075 data:0XE2 0X0F                                status:VALID rate:VALID length:VALID data:VALID delta:786
+
+logging: 1599632313075,0X90 0X0E 0X5C 0X41 0XFF 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 256 bytes: 1 ms:1599632313171
+gen::generate_data nbytes
+detecting id:256 dlc:1 ms:1599632313171 data:0X0B                                     status:INVALID rate:INVALID length:VALID data:VALID delta:96
+
+logging: 1599632313171,0X90 0X0E 0X21 0X7F 0XFF 0XFF 0XFF                                    ,INVALID,RATE
+
+generating id 768 bytes: 0 ms:1599632313263
+gen::generate_data nbytes
+detecting id:768 dlc:0 ms:1599632313263 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:283
+
+logging: 1599632313263,0XB0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 256 bytes: 2 ms:1599632313351
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632313351 data:0XB1 0X64                                status:VALID rate:VALID length:VALID data:VALID delta:180
+
+logging: 1599632313351,0X90 0X0E 0X56 0X2C 0X9F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 768 bytes: 4 ms:1599632313422
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632313422 data:0X22 0XA2 0X7A 0XDF                      status:VALID rate:VALID length:VALID data:VALID delta:159
+
+logging: 1599632313422,0XB0 0X0E 0X84 0X54 0X4F 0X5B 0XFF 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 512 bytes: 6 ms:1599632313478
+gen::generate_data nbytes
+detecting id:512 dlc:6 ms:1599632313478 data:0X7A 0X29 0X44 0X34 0X1D 0XF2            status:VALID rate:VALID length:VALID data:VALID delta:766
+
+logging: 1599632313478,0XA0 0X0E 0XCF 0X45 0X28 0X86 0X83 0XBE 0X5F 0XFF 0XFF 0XFF           ,VALID
+
+generating id 512 bytes: 8 ms:1599632313545
+gen::generate_data nbytes
+detecting id:512 dlc:8 ms:1599632313545 data:0X41 0XEF 0XE9 0X4C 0X73 0XEB 0X1E 0X50  status:INVALID rate:INVALID length:VALID data:VALID delta:67
+
+logging: 1599632313545,0XA0 0X0F 0X08 0X3D 0XFD 0X29 0X8E 0X7D 0X63 0XCA 0X1F 0XFF 0XFF 0XFF ,INVALID,RATE
+
+generating id 512 bytes: 4 ms:1599632313601
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632313601 data:0X6A 0X9E 0X55 0XBD                      status:INVALID rate:INVALID length:VALID data:VALID delta:56
+
+logging: 1599632313601,0XA0 0X0E 0X8D 0X53 0XCA 0XB7 0XBF 0XFF 0XFF 0XFF                     ,INVALID,RATE
+
+generating id 256 bytes: 2 ms:1599632313678
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632313678 data:0X9F 0XD1                                status:INVALID rate:VALID length:INVALID data:VALID delta:327
+
+logging: 1599632313678,0X90 0X0E 0X53 0XFA 0X3F 0XFF 0XFF 0XFF                               ,INVALID,LENGTH
+
+generating id 768 bytes: 1 ms:1599632313760
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632313760 data:0X64                                     status:VALID rate:VALID length:VALID data:VALID delta:338
+
+logging: 1599632313760,0XB0 0X0E 0X2C 0X9F 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 512 bytes: 6 ms:1599632313843
+gen::generate_data nbytes
+detecting id:512 dlc:6 ms:1599632313843 data:0XDD 0X2C 0X81 0XDE 0X6D 0X70            status:VALID rate:VALID length:VALID data:VALID delta:242
+
+logging: 1599632313843,0XA0 0X0E 0XDB 0XA5 0X90 0X3B 0XCD 0XAE 0X1F 0XFF 0XFF 0XFF           ,VALID
+
+generating id 256 bytes: 7 ms:1599632313919
+gen::generate_data nbytes
+detecting id:256 dlc:7 ms:1599632313919 data:0XB2 0XD7 0X34 0XB9 0X9E 0X36 0X23       status:VALID rate:VALID length:VALID data:VALID delta:241
+
+logging: 1599632313919,0X90 0X0E 0XF6 0X5A 0XE6 0X97 0X33 0XC6 0XC4 0X7F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 768 bytes: 4 ms:1599632313993
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632313993 data:0XFD 0X82 0X19 0X9C                      status:VALID rate:VALID length:VALID data:VALID delta:233
+
+logging: 1599632313993,0XB0 0X0E 0X9F 0XB0 0X43 0X33 0X9F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 256 bytes: 5 ms:1599632314079
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632314079 data:0X9F 0XB7 0X2F 0X1E 0X39                 status:VALID rate:VALID length:VALID data:VALID delta:160
+
+logging: 1599632314079,0X90 0X0E 0XB3 0XF6 0XE5 0XE3 0XC7 0X3F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 256 bytes: 5 ms:1599632314168
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632314169 data:0XEB 0XB7 0X2B 0XB2 0X70                 status:INVALID rate:INVALID length:INVALID data:INVALID delta:90
+
+logging: 1599632314169,0X90 0X0E 0XBD 0X76 0XE5 0X76 0X4E 0X1F 0XFF 0XFF 0XFF                ,INVALID,RATE,LENGTH,DATA
+
+generating id 256 bytes: 2 ms:1599632314221
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632314221 data:0X43 0X1E                                status:INVALID rate:INVALID length:VALID data:VALID delta:52
+
+logging: 1599632314221,0X90 0X0E 0X48 0X63 0XDF 0XFF 0XFF 0XFF                               ,INVALID,RATE
+
+generating id 768 bytes: 3 ms:1599632314298
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632314298 data:0X22 0X04 0X22                           status:VALID rate:VALID length:VALID data:VALID delta:305
+
+logging: 1599632314298,0XB0 0X0E 0X64 0X40 0X84 0X5F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 256 bytes: 3 ms:1599632314360
+gen::generate_data nbytes
+detecting id:256 dlc:3 ms:1599632314360 data:0XBC 0XDA 0X8F                           status:VALID rate:VALID length:VALID data:VALID delta:139
+
+logging: 1599632314360,0X90 0X0E 0X77 0X9B 0X51 0XFF 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 512 bytes: 5 ms:1599632314448
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632314448 data:0X2E 0X98 0X7F 0X3B 0XE2                 status:VALID rate:VALID length:VALID data:VALID delta:605
+
+logging: 1599632314448,0XA0 0X0E 0XA5 0XD3 0X0F 0XE7 0X7C 0X5F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 768 bytes: 4 ms:1599632314501
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632314501 data:0X65 0XD8 0X0A 0X74                      status:VALID rate:VALID length:VALID data:VALID delta:203
+
+logging: 1599632314501,0XB0 0X0E 0X8C 0XBB 0X01 0X4E 0X9F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 768 bytes: 4 ms:1599632314574
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632314574 data:0X5B 0X38 0X31 0X9D                      status:INVALID rate:INVALID length:INVALID data:VALID delta:73
+
+logging: 1599632314574,0XB0 0X0E 0X8B 0X67 0X06 0X33 0XBF 0XFF 0XFF 0XFF                     ,INVALID,RATE,LENGTH
+
+generating id 256 bytes: 0 ms:1599632314661
+gen::generate_data nbytes
+detecting id:256 dlc:0 ms:1599632314661 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:301
+
+logging: 1599632314661,0X90 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 768 bytes: 3 ms:1599632314725
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632314725 data:0X36 0X97 0X8A                           status:VALID rate:VALID length:VALID data:VALID delta:151
+
+logging: 1599632314725,0XB0 0X0E 0X66 0XD2 0XF1 0X5F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 512 bytes: 7 ms:1599632314777
+gen::generate_data nbytes
+detecting id:512 dlc:7 ms:1599632314777 data:0X64 0XA8 0X50 0X9F 0X8B 0X8A 0XC5       status:VALID rate:VALID length:VALID data:VALID delta:329
+
+logging: 1599632314777,0XA0 0X0E 0XEC 0X95 0X0A 0X13 0XF1 0X71 0X58 0XBF 0XFF 0XFF 0XFF      ,VALID
+
+generating id 768 bytes: 8 ms:1599632314872
+gen::generate_data nbytes
+detecting id:768 dlc:8 ms:1599632314872 data:0X2F 0X63 0XDB 0X81 0X1A 0X36 0XB9 0X4B  status:INVALID rate:VALID length:VALID data:INVALID delta:147
+
+logging: 1599632314872,0XB0 0X0F 0X05 0XEC 0X7B 0X70 0X23 0X46 0XD7 0X29 0X7F 0XFF 0XFF 0XFF ,INVALID,DATA
+
+generating id 512 bytes: 4 ms:1599632314969
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632314969 data:0X93 0X8E 0X3D 0X8E                      status:VALID rate:VALID length:VALID data:VALID delta:192
+
+logging: 1599632314969,0XA0 0X0E 0X92 0X71 0XC7 0XB1 0XDF 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 512 bytes: 8 ms:1599632315051
+gen::generate_data nbytes
+detecting id:512 dlc:8 ms:1599632315052 data:0XF9 0XE5 0XE8 0X5D 0X8D 0X38 0XFC 0X18  status:INVALID rate:INVALID length:VALID data:VALID delta:83
+
+logging: 1599632315052,0XA0 0X0F 0X1F 0X3C 0XBD 0X0B 0XB1 0XA7 0X1F 0X83 0X1F 0XFF 0XFF 0XFF ,INVALID,RATE
+
+generating id 256 bytes: 0 ms:1599632315119
+gen::generate_data nbytes
+detecting id:256 dlc:0 ms:1599632315119 data:                                         status:INVALID rate:VALID length:INVALID data:VALID delta:458
+
+logging: 1599632315119,0X90 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,INVALID,LENGTH
+
+generating id 256 bytes: 6 ms:1599632315195
+gen::generate_data nbytes
+detecting id:256 dlc:6 ms:1599632315195 data:0X14 0X3A 0XEE 0X2F 0X70 0XA8            status:INVALID rate:INVALID length:VALID data:VALID delta:76
+
+logging: 1599632315195,0X90 0X0E 0XC2 0X87 0X5D 0XC5 0XEE 0X15 0X1F 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 512 bytes: 4 ms:1599632315268
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632315268 data:0XFB 0XD7 0X4A 0X39                      status:VALID rate:VALID length:VALID data:VALID delta:216
+
+logging: 1599632315268,0XA0 0X0E 0X9F 0X7A 0XE9 0X47 0X3F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 768 bytes: 5 ms:1599632315360
+gen::generate_data nbytes
+detecting id:768 dlc:5 ms:1599632315360 data:0X7D 0X07 0XF2 0X65 0X65                 status:VALID rate:VALID length:VALID data:VALID delta:488
+
+logging: 1599632315360,0XB0 0X0E 0XAF 0XA0 0XFE 0X4C 0XAC 0XBF 0XFF 0XFF 0XFF                ,VALID
+
+generating id 768 bytes: 6 ms:1599632315412
+gen::generate_data nbytes
+detecting id:768 dlc:6 ms:1599632315412 data:0X98 0X60 0X23 0XD6 0X12 0X82            status:INVALID rate:INVALID length:VALID data:VALID delta:52
+
+logging: 1599632315412,0XB0 0X0E 0XD3 0X0C 0X04 0X7A 0XC2 0X50 0X5F 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 256 bytes: 5 ms:1599632315512
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632315512 data:0X31 0X55 0X2C 0XD9 0XD0                 status:VALID rate:VALID length:VALID data:VALID delta:317
+
+logging: 1599632315512,0X90 0X0E 0XA6 0X2A 0XA5 0X9B 0X3A 0X1F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 256 bytes: 8 ms:1599632315583
+gen::generate_data nbytes
+detecting id:256 dlc:8 ms:1599632315583 data:0X47 0XDF 0X04 0XAC 0XED 0X12 0X29 0XF5  status:INVALID rate:INVALID length:VALID data:VALID delta:71
+
+logging: 1599632315583,0X90 0X0F 0X08 0XFB 0XE0 0X95 0X9D 0XA2 0X45 0X3E 0XBF 0XFF 0XFF 0XFF ,INVALID,RATE
+
+generating id 256 bytes: 5 ms:1599632315662
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632315662 data:0X84 0X2D 0XBB 0X1D 0X8D                 status:INVALID rate:INVALID length:VALID data:VALID delta:79
+
+logging: 1599632315662,0X90 0X0E 0XB0 0X85 0XB7 0X63 0XB1 0XBF 0XFF 0XFF 0XFF                ,INVALID,RATE
+
+generating id 512 bytes: 2 ms:1599632315750
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632315750 data:0X60 0X36                                status:VALID rate:VALID length:VALID data:VALID delta:482
+
+logging: 1599632315750,0XA0 0X0E 0X4C 0X06 0XDF 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 256 bytes: 6 ms:1599632315838
+gen::generate_data nbytes
+detecting id:256 dlc:6 ms:1599632315838 data:0X1B 0X49 0X41 0XEB 0XB9 0XD6            status:VALID rate:VALID length:VALID data:VALID delta:176
+
+logging: 1599632315838,0X90 0X0E 0XC3 0X69 0X28 0X3D 0X77 0X3A 0XDF 0XFF 0XFF 0XFF           ,VALID
+
+generating id 768 bytes: 2 ms:1599632315894
+gen::generate_data nbytes
+detecting id:768 dlc:2 ms:1599632315895 data:0XBB 0XAD                                status:VALID rate:VALID length:VALID data:VALID delta:483
+
+logging: 1599632315895,0XB0 0X0E 0X57 0X75 0XBF 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 512 bytes: 3 ms:1599632315945
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632315945 data:0X98 0XD2 0X66                           status:VALID rate:VALID length:VALID data:VALID delta:195
+
+logging: 1599632315945,0XA0 0X0E 0X73 0X1A 0X4C 0XDF 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 768 bytes: 7 ms:1599632315996
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632315996 data:0XAE 0X73 0X20 0X8C 0X66 0XC0 0XED       status:VALID rate:VALID length:VALID data:VALID delta:101
+
+logging: 1599632315996,0XB0 0X0E 0XF5 0XCE 0X64 0X11 0X8C 0XD8 0X1D 0XBF 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 4 ms:1599632316067
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632316067 data:0X04 0XA1 0X52 0X45                      status:VALID rate:VALID length:VALID data:VALID delta:122
+
+logging: 1599632316067,0XA0 0X0E 0X80 0X94 0X2A 0X48 0XBF 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 256 bytes: 5 ms:1599632316139
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632316139 data:0X44 0X0D 0XD1 0XFF 0XBA                 status:VALID rate:VALID length:VALID data:VALID delta:301
+
+logging: 1599632316139,0X90 0X0E 0XA8 0X81 0XBA 0X3F 0XF7 0X5F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 768 bytes: 5 ms:1599632316224
+gen::generate_data nbytes
+detecting id:768 dlc:5 ms:1599632316224 data:0X0D 0X9F 0XF7 0X00 0XF5                 status:VALID rate:VALID length:VALID data:VALID delta:228
+
+logging: 1599632316224,0XB0 0X0E 0XA1 0XB3 0XFE 0XE0 0X1E 0XBF 0XFF 0XFF 0XFF                ,VALID
+
+generating id 512 bytes: 1 ms:1599632316284
+gen::generate_data nbytes
+detecting id:512 dlc:1 ms:1599632316284 data:0XAB                                     status:VALID rate:VALID length:VALID data:VALID delta:217
+
+logging: 1599632316284,0XA0 0X0E 0X35 0X7F 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 512 bytes: 3 ms:1599632316357
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632316357 data:0X27 0X6C 0XF1                           status:INVALID rate:INVALID length:VALID data:VALID delta:73
+
+logging: 1599632316357,0XA0 0X0E 0X64 0XED 0X9E 0X3F 0XFF 0XFF 0XFF                          ,INVALID,RATE
+
+generating id 256 bytes: 7 ms:1599632316417
+gen::generate_data nbytes
+detecting id:256 dlc:7 ms:1599632316417 data:0X83 0XB5 0X1F 0X8F 0XD0 0X63 0X9C       status:VALID rate:VALID length:VALID data:VALID delta:278
+
+logging: 1599632316417,0X90 0X0E 0XF0 0X76 0XA3 0XF1 0XFA 0X0C 0X73 0X9F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 7 ms:1599632316507
+gen::generate_data nbytes
+detecting id:512 dlc:7 ms:1599632316507 data:0X17 0X30 0XE8 0X24 0XCF 0XE0 0X24       status:VALID rate:VALID length:VALID data:VALID delta:150
+
+logging: 1599632316507,0XA0 0X0E 0XE2 0XE6 0X1D 0X04 0X99 0XFC 0X04 0X9F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 256 bytes: 5 ms:1599632316591
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632316591 data:0X2D 0X15 0X0D 0XFD 0X80                 status:VALID rate:VALID length:VALID data:VALID delta:174
+
+logging: 1599632316591,0X90 0X0E 0XA5 0XA2 0XA1 0XBF 0XB0 0X1F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 512 bytes: 2 ms:1599632316674
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632316675 data:0X65 0XD9                                status:VALID rate:VALID length:VALID data:VALID delta:168
+
+logging: 1599632316675,0XA0 0X0E 0X4C 0XBB 0X3F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 512 bytes: 2 ms:1599632316760
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632316760 data:0X23 0X78                                status:INVALID rate:INVALID length:INVALID data:VALID delta:85
+
+logging: 1599632316760,0XA0 0X0E 0X44 0X6F 0X1F 0XFF 0XFF 0XFF                               ,INVALID,RATE,LENGTH
+
+generating id 512 bytes: 0 ms:1599632316820
+gen::generate_data nbytes
+detecting id:512 dlc:0 ms:1599632316820 data:                                         status:INVALID rate:INVALID length:VALID data:VALID delta:60
+
+logging: 1599632316820,0XA0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,INVALID,RATE
+
+generating id 768 bytes: 7 ms:1599632316900
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632316900 data:0X17 0X1A 0X54 0X3C 0XE9 0X34 0X60       status:VALID rate:VALID length:VALID data:VALID delta:676
+
+logging: 1599632316900,0XB0 0X0E 0XE2 0XE3 0X4A 0X87 0X9D 0X26 0X8C 0X1F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 4 ms:1599632316963
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632316963 data:0XDB 0XB4 0X40 0XD8                      status:VALID rate:VALID length:VALID data:VALID delta:143
+
+logging: 1599632316963,0XA0 0X0E 0X9B 0X76 0X88 0X1B 0X1F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 768 bytes: 4 ms:1599632317040
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632317041 data:0XA6 0XDA 0X1A 0XAA                      status:INVALID rate:VALID length:VALID data:INVALID delta:141
+
+logging: 1599632317041,0XB0 0X0E 0X94 0XDB 0X43 0X55 0X5F 0XFF 0XFF 0XFF                     ,INVALID,DATA
+
+generating id 512 bytes: 5 ms:1599632317103
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632317103 data:0X3B 0X06 0X55 0X50 0X07                 status:VALID rate:VALID length:VALID data:VALID delta:140
+
+logging: 1599632317103,0XA0 0X0E 0XA7 0X60 0XCA 0XAA 0X00 0XFF 0XFF 0XFF 0XFF                ,VALID
+
+generating id 512 bytes: 2 ms:1599632317170
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632317170 data:0X59 0X11                                status:INVALID rate:INVALID length:VALID data:VALID delta:67
+
+logging: 1599632317170,0XA0 0X0E 0X4B 0X22 0X3F 0XFF 0XFF 0XFF                               ,INVALID,RATE
+
+generating id 256 bytes: 1 ms:1599632317232
+gen::generate_data nbytes
+detecting id:256 dlc:1 ms:1599632317232 data:0XBB                                     status:VALID rate:VALID length:VALID data:VALID delta:641
+
+logging: 1599632317232,0X90 0X0E 0X37 0X7F 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 256 bytes: 3 ms:1599632317331
+gen::generate_data nbytes
+detecting id:256 dlc:3 ms:1599632317331 data:0XCA 0X99 0X2E                           status:INVALID rate:INVALID length:VALID data:VALID delta:99
+
+logging: 1599632317331,0X90 0X0E 0X79 0X53 0X25 0XDF 0XFF 0XFF 0XFF                          ,INVALID,RATE
+
+generating id 256 bytes: 6 ms:1599632317412
+gen::generate_data nbytes
+detecting id:256 dlc:6 ms:1599632317412 data:0XE3 0X74 0X7C 0XFD 0X1F 0X3F            status:INVALID rate:INVALID length:VALID data:VALID delta:81
+
+logging: 1599632317412,0X90 0X0E 0XDC 0X6E 0X8F 0X9F 0XA3 0XE7 0XFF 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 768 bytes: 4 ms:1599632317485
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632317485 data:0XAC 0X42 0XCB 0XB3                      status:INVALID rate:VALID length:INVALID data:VALID delta:444
+
+logging: 1599632317485,0XB0 0X0E 0X95 0X88 0X59 0X76 0X7F 0XFF 0XFF 0XFF                     ,INVALID,LENGTH
+
+generating id 768 bytes: 4 ms:1599632317560
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632317560 data:0XDA 0X99 0X2C 0X1C                      status:INVALID rate:INVALID length:INVALID data:VALID delta:75
+
+logging: 1599632317560,0XB0 0X0E 0X9B 0X53 0X25 0X83 0X9F 0XFF 0XFF 0XFF                     ,INVALID,RATE,LENGTH
+
+generating id 768 bytes: 3 ms:1599632317660
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632317660 data:0XC3 0XD5 0XD6                           status:VALID rate:VALID length:VALID data:VALID delta:100
+
+logging: 1599632317660,0XB0 0X0E 0X78 0X7A 0XBA 0XDF 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 512 bytes: 5 ms:1599632317715
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632317715 data:0X2A 0XA5 0X5C 0X9E 0X22                 status:VALID rate:VALID length:VALID data:VALID delta:545
+
+logging: 1599632317715,0XA0 0X0E 0XA5 0X54 0XAB 0X93 0XC4 0X5F 0XFF 0XFF 0XFF                ,VALID
+
+generating id 512 bytes: 3 ms:1599632317793
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632317793 data:0XFF 0XAA 0XDC                           status:INVALID rate:INVALID length:VALID data:VALID delta:78
+
+logging: 1599632317793,0XA0 0X0E 0X7F 0XF5 0X5B 0X9F 0XFF 0XFF 0XFF                          ,INVALID,RATE
+
+generating id 768 bytes: 3 ms:1599632317890
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632317890 data:0X5E 0X6D 0X30                           status:INVALID rate:VALID length:INVALID data:VALID delta:230
+
+logging: 1599632317890,0XB0 0X0E 0X6B 0XCD 0XA6 0X1F 0XFF 0XFF 0XFF                          ,INVALID,LENGTH
+
+generating id 512 bytes: 6 ms:1599632317984
+gen::generate_data nbytes
+detecting id:512 dlc:6 ms:1599632317984 data:0X5B 0X63 0XA7 0X42 0X6F 0X6A            status:VALID rate:VALID length:VALID data:VALID delta:191
+
+logging: 1599632317984,0XA0 0X0E 0XCB 0X6C 0X74 0XE8 0X4D 0XED 0X5F 0XFF 0XFF 0XFF           ,VALID
+
+generating id 256 bytes: 3 ms:1599632318081
+gen::generate_data nbytes
+detecting id:256 dlc:3 ms:1599632318081 data:0X1A 0XBD 0XF0                           status:VALID rate:VALID length:VALID data:VALID delta:669
+
+logging: 1599632318081,0X90 0X0E 0X63 0X57 0XBE 0X1F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 256 bytes: 2 ms:1599632318160
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632318160 data:0XE2 0X73                                status:INVALID rate:INVALID length:VALID data:VALID delta:79
+
+logging: 1599632318160,0X90 0X0E 0X5C 0X4E 0X7F 0XFF 0XFF 0XFF                               ,INVALID,RATE
+
+generating id 256 bytes: 4 ms:1599632318257
+gen::generate_data nbytes
+detecting id:256 dlc:4 ms:1599632318257 data:0XF7 0X20 0X1D 0XE3                      status:INVALID rate:INVALID length:VALID data:VALID delta:97
+
+logging: 1599632318257,0X90 0X0E 0X9E 0XE4 0X03 0XBC 0X7F 0XFF 0XFF 0XFF                     ,INVALID,RATE
+
+generating id 512 bytes: 2 ms:1599632318323
+gen::generate_data nbytes
+detecting id:512 dlc:2 ms:1599632318323 data:0XF8 0XAA                                status:VALID rate:VALID length:VALID data:VALID delta:339
+
+logging: 1599632318323,0XA0 0X0E 0X5F 0X15 0X5F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 768 bytes: 2 ms:1599632318389
+gen::generate_data nbytes
+detecting id:768 dlc:2 ms:1599632318389 data:0XFC 0X68                                status:VALID rate:VALID length:VALID data:VALID delta:499
+
+logging: 1599632318389,0XB0 0X0E 0X5F 0X8D 0X1F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 768 bytes: 1 ms:1599632318465
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632318465 data:0X60                                     status:INVALID rate:INVALID length:VALID data:VALID delta:76
+
+logging: 1599632318465,0XB0 0X0E 0X2C 0X1F 0XFF 0XFF 0XFF                                    ,INVALID,RATE
+
+generating id 768 bytes: 4 ms:1599632318561
+gen::generate_data nbytes
+detecting id:768 dlc:4 ms:1599632318561 data:0X6D 0X8A 0X3A 0X87                      status:INVALID rate:INVALID length:VALID data:VALID delta:96
+
+logging: 1599632318561,0XB0 0X0E 0X8D 0XB1 0X47 0X50 0XFF 0XFF 0XFF 0XFF                     ,INVALID,RATE
+
+generating id 256 bytes: 7 ms:1599632318618
+gen::generate_data nbytes
+detecting id:256 dlc:7 ms:1599632318618 data:0X65 0X60 0X6C 0X5C 0X80 0X89 0X40       status:VALID rate:VALID length:VALID data:VALID delta:361
+
+logging: 1599632318618,0X90 0X0E 0XEC 0XAC 0X0D 0X8B 0X90 0X11 0X28 0X1F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 0 ms:1599632318714
+gen::generate_data nbytes
+detecting id:512 dlc:0 ms:1599632318714 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:391
+
+logging: 1599632318714,0XA0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 512 bytes: 0 ms:1599632318810
+gen::generate_data nbytes
+detecting id:512 dlc:0 ms:1599632318810 data:                                         status:INVALID rate:INVALID length:INVALID data:VALID delta:96
+
+logging: 1599632318810,0XA0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,INVALID,RATE,LENGTH
+
+generating id 512 bytes: 6 ms:1599632318894
+gen::generate_data nbytes
+detecting id:512 dlc:6 ms:1599632318894 data:0X69 0XFD 0X90 0X3C 0X5D 0X40            status:INVALID rate:INVALID length:VALID data:VALID delta:84
+
+logging: 1599632318894,0XA0 0X0E 0XCD 0X3F 0XB2 0X07 0X8B 0XA8 0X1F 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 512 bytes: 3 ms:1599632318964
+gen::generate_data nbytes
+detecting id:512 dlc:3 ms:1599632318964 data:0X60 0X12 0X35                           status:INVALID rate:INVALID length:VALID data:VALID delta:70
+
+logging: 1599632318964,0XA0 0X0E 0X6C 0X02 0X46 0XBF 0XFF 0XFF 0XFF                          ,INVALID,RATE
+
+generating id 256 bytes: 1 ms:1599632319060
+gen::generate_data nbytes
+detecting id:256 dlc:1 ms:1599632319060 data:0XDE                                     status:VALID rate:VALID length:VALID data:VALID delta:442
+
+logging: 1599632319060,0X90 0X0E 0X3B 0XDF 0XFF 0XFF 0XFF                                    ,VALID
+
+generating id 768 bytes: 7 ms:1599632319148
+gen::generate_data nbytes
+detecting id:768 dlc:7 ms:1599632319149 data:0X0E 0X24 0X7B 0X56 0X28 0X0C 0X96       status:VALID rate:VALID length:VALID data:VALID delta:588
+
+logging: 1599632319149,0XB0 0X0E 0XE1 0XC4 0X8F 0X6A 0XC5 0X01 0X92 0XDF 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 4 ms:1599632319232
+gen::generate_data nbytes
+detecting id:512 dlc:4 ms:1599632319232 data:0X8B 0X5B 0X01 0X88                      status:VALID rate:VALID length:VALID data:VALID delta:268
+
+logging: 1599632319232,0XA0 0X0E 0X91 0X6B 0X60 0X31 0X1F 0XFF 0XFF 0XFF                     ,VALID
+
+generating id 768 bytes: 3 ms:1599632319321
+gen::generate_data nbytes
+detecting id:768 dlc:3 ms:1599632319321 data:0X2C 0X13 0XBC                           status:VALID rate:VALID length:VALID data:VALID delta:172
+
+logging: 1599632319321,0XB0 0X0E 0X65 0X82 0X77 0X9F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 512 bytes: 7 ms:1599632319389
+gen::generate_data nbytes
+detecting id:512 dlc:7 ms:1599632319389 data:0X0F 0XEC 0XFD 0X3E 0XCB 0X8B 0XD9       status:INVALID rate:VALID length:VALID data:INVALID delta:157
+
+logging: 1599632319389,0XA0 0X0E 0XE1 0XFD 0X9F 0XA7 0XD9 0X71 0X7B 0X3F 0XFF 0XFF 0XFF      ,INVALID,DATA
+
+generating id 512 bytes: 1 ms:1599632319441
+gen::generate_data nbytes
+detecting id:512 dlc:1 ms:1599632319441 data:0X81                                     status:INVALID rate:INVALID length:VALID data:VALID delta:52
+
+logging: 1599632319441,0XA0 0X0E 0X30 0X3F 0XFF 0XFF 0XFF                                    ,INVALID,RATE
+
+generating id 512 bytes: 8 ms:1599632319499
+gen::generate_data nbytes
+detecting id:512 dlc:8 ms:1599632319500 data:0X87 0XFB 0XC2 0X1E 0X86 0X1D 0X1F 0X0E  status:INVALID rate:INVALID length:VALID data:VALID delta:59
+
+logging: 1599632319500,0XA0 0X0F 0X10 0XFF 0X78 0X43 0XD0 0XC3 0XA3 0XE1 0XDF 0XFF 0XFF 0XFF ,INVALID,RATE
+
+generating id 512 bytes: 5 ms:1599632319554
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632319554 data:0X35 0X70 0XB0 0X0F 0XE4                 status:INVALID rate:INVALID length:VALID data:VALID delta:54
+
+logging: 1599632319554,0XA0 0X0E 0XA6 0XAE 0X16 0X01 0XFC 0X9F 0XFF 0XFF 0XFF                ,INVALID,RATE
+
+generating id 256 bytes: 5 ms:1599632319605
+gen::generate_data nbytes
+detecting id:256 dlc:5 ms:1599632319605 data:0X7B 0X5C 0X9B 0X07 0X35                 status:VALID rate:VALID length:VALID data:VALID delta:545
+
+logging: 1599632319605,0X90 0X0E 0XAF 0X6B 0X93 0X60 0XE6 0XBF 0XFF 0XFF 0XFF                ,VALID
+
+generating id 512 bytes: 0 ms:1599632319687
+gen::generate_data nbytes
+detecting id:512 dlc:0 ms:1599632319687 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:133
+
+logging: 1599632319687,0XA0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 256 bytes: 2 ms:1599632319744
+gen::generate_data nbytes
+detecting id:256 dlc:2 ms:1599632319744 data:0XAF 0X18                                status:VALID rate:VALID length:VALID data:VALID delta:139
+
+logging: 1599632319744,0X90 0X0E 0X55 0XE3 0X1F 0XFF 0XFF 0XFF                               ,VALID
+
+generating id 256 bytes: 6 ms:1599632319843
+gen::generate_data nbytes
+detecting id:256 dlc:6 ms:1599632319843 data:0XD9 0X8F 0X56 0XE7 0X98 0XB3            status:INVALID rate:INVALID length:VALID data:VALID delta:99
+
+logging: 1599632319843,0X90 0X0E 0XDB 0X31 0XEA 0XDC 0XF3 0X16 0X7F 0XFF 0XFF 0XFF           ,INVALID,RATE
+
+generating id 256 bytes: 0 ms:1599632319932
+gen::generate_data nbytes
+detecting id:256 dlc:0 ms:1599632319932 data:                                         status:INVALID rate:INVALID length:VALID data:VALID delta:89
+
+logging: 1599632319932,0X90 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,INVALID,RATE
+
+generating id 512 bytes: 7 ms:1599632320023
+gen::generate_data nbytes
+detecting id:512 dlc:7 ms:1599632320023 data:0X09 0XFA 0XD8 0X85 0X56 0X74 0X8C       status:VALID rate:VALID length:VALID data:VALID delta:336
+
+logging: 1599632320023,0XA0 0X0E 0XE1 0X3F 0X5B 0X10 0XAA 0XCE 0X91 0X9F 0XFF 0XFF 0XFF      ,VALID
+
+generating id 512 bytes: 5 ms:1599632320096
+gen::generate_data nbytes
+detecting id:512 dlc:5 ms:1599632320096 data:0XBD 0X38 0XBE 0X14 0XE7                 status:INVALID rate:INVALID length:VALID data:VALID delta:73
+
+logging: 1599632320096,0XA0 0X0E 0XB7 0XA7 0X17 0XC2 0X9C 0XFF 0XFF 0XFF 0XFF                ,INVALID,RATE
+
+generating id 768 bytes: 0 ms:1599632320168
+gen::generate_data nbytes
+detecting id:768 dlc:0 ms:1599632320168 data:                                         status:VALID rate:VALID length:VALID data:VALID delta:847
+
+logging: 1599632320168,0XB0 0X0E 0X1F 0XFF 0XFF 0XFF                                         ,VALID
+
+generating id 256 bytes: 3 ms:1599632320237
+gen::generate_data nbytes
+detecting id:256 dlc:3 ms:1599632320237 data:0X64 0X27 0X81                           status:VALID rate:VALID length:VALID data:VALID delta:305
+
+logging: 1599632320237,0X90 0X0E 0X6C 0X84 0XF0 0X3F 0XFF 0XFF 0XFF                          ,VALID
+
+generating id 768 bytes: 8 ms:1599632320300
+gen::generate_data nbytes
+detecting id:768 dlc:8 ms:1599632320300 data:0X3C 0X8D 0X2B 0X44 0X97 0X26 0X1C 0X1C  status:VALID rate:VALID length:VALID data:VALID delta:132
+
+logging: 1599632320300,0XB0 0X0F 0X07 0X91 0XA5 0X68 0X92 0XE4 0XC3 0X83 0X9F 0XFF 0XFF 0XFF ,VALID
+
+generating id 768 bytes: 1 ms:1599632320375
+gen::generate_data nbytes
+detecting id:768 dlc:1 ms:1599632320375 data:0X08                                     status:INVALID rate:INVALID length:VALID data:VALID delta:75
+
+logging: 1599632320375,0XB0 0X0E 0X21 0X1F 0XFF 0XFF 0XFF                                    ,INVALID,RATE
+
+generator tedaching 
+Joining
+detector pop failed terminating 
+----generator ended ----
+detector tedaching 
+Joining
+log pop failed terminating 
+----detector ended ----
+logger detaching 
+Joining
