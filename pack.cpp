@@ -124,7 +124,7 @@ bool pack::get_data_byte(uchar& byte, uint nbyte ) {
 
 //assumes len <= CHAR_BIT
 void pack::set_byte(uchar b, uint i, uchar* arr, uint len) {
-    uchar hb = bit_byte(i);
+    uint hb = bit_byte(i);
     uchar hs = h_shift_l(i);
 
     if(CHAR_BIT < len) {
