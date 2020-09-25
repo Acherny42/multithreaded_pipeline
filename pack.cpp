@@ -242,6 +242,34 @@ int pack::get_bits_int(const uchar* in, uint in_i, uint len) {
     return r;
 }
 
+void pack::set_bits(const uchar* in, uint in_i,  uchar* out, uint out_i, uint len) {
+
+    uchar wb = get_byte(in_i, in, len < CHAR_BIT ? len : CHAR_BIT);
+    set_byte(wb, out_i, out, len < CHAR_BIT ? len : CHAR_BIT );
+
+    if( len <= CHAR_BIT )
+        return;
+
+    uint i = 0;
+    uint offset_out = 0;
+    uint offset_in = 0;
+    for(i = 0 ; i < (len - CHAR_BIT) / CHAR_BIT ; i++) {
+        offset_out = CHAR_BIT + i * CHAR_BIT;
+        offset_in = CHAR_BIT +  i * CHAR_BIT ;
+        wb = get_byte(in_i - offset_in, in, CHAR_BIT );
+        set_byte(wb, out_i - offset_out, out, CHAR_BIT );
+    }
+
+    if(0 == len % CHAR_BIT)
+        return;
+
+    offset_out = CHAR_BIT + i * CHAR_BIT;
+    offset_in = CHAR_BIT +  i * CHAR_BIT ;
+    wb = get_byte(in_i - offset_in, in, len % CHAR_BIT );
+    set_byte(wb, out_i - offset_out, out, len % CHAR_BIT );
+
+}
+
 pack::~pack()
 {    
 

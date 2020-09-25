@@ -85,16 +85,17 @@ public:
 
     ~pack();
 
+    static uint bit_byte(uint i);
+    static uint h_shift_l(uint i);
+    static uchar get_byte( uint i, const uchar* arr, uint len);
+    static void  set_byte(uchar b, uint i, uchar* arr, uint len);
+    static void set_bits(const uchar* in, uint in_i,  uchar* out, uint out_i, uint len);
+
 private:
 
-    uint bit_byte(uint i);
-    uint h_shift_l(uint i);
-    uchar get_byte( uint i, const uchar* arr, uint len);
-    void  set_byte(uchar b, uint i, uchar* arr, uint len);
     void  set_bits_int(int u, uchar* out, uint out_i, uint len);
     int   get_bits_int(const uchar* in, uint in_i, uint len);
-
-
+    
     void move_comm(pack& p);
     
     std::unique_ptr<uchar[]> m_data;

@@ -2,19 +2,20 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <limits.h>
 
+#include "defines.h"
 #include "link.h"
 #include "pack.h"
 #include "gen.h"
 #include "det.h"
 #include "log.h"
 
-
 #include <chrono> 
 #include <iostream> 
 #include <string.h> 
 #include <errno.h> 
-#include "defines.h"
+
 
 
 uint GENERATION_DURATION_SEC    = 10;
@@ -262,10 +263,101 @@ void run_unit_test(std::string filename){
 }
 
 void print_usage() {
-        std::cout << "usage: app [1|2|3]" << std::endl;
-        std::cout << "1 - normal " << std::endl;
-        std::cout << "2 - unit test 1 " << std::endl;
-        std::cout << "3 - unit test 2 " << std::endl;
+        std::cout << "usage: app [1|2|3] [time ms | bytes to compress]" << std::endl;
+        std::cout << "1 - normal 10 " << std::endl;
+        std::cout << "2 - unit test 1 10 " << std::endl;
+        std::cout << "3 - unit test 2 10 " << std::endl;
+        std::cout << "4 - unit test compress 500 " << std::endl;
+}
+
+
+void validate_compressed_bytes(const int array_compressed[], const int array_copy[], int size, bool print = false) {
+    printf("compressed array:\n");
+    uint invalid = 0;
+    const uchar* p = (uchar*)array_compressed;
+    for(uint i = 0 ; i < size ; i++ ) {
+        uint tmp = pack::get_byte( (i + 1) * CHAR_BIT - 1, p, CHAR_BIT);
+        if(print) {
+            printf("%X ", tmp);
+        }
+        if(tmp != array_copy[i]) {
+            invalid++;
+        }
+    }
+    printf("\n");
+
+    if(invalid) {
+        printf("\nCOMPRESSION INVALID %d\n", invalid);
+    } else {
+        printf("\nCOMPRESSION CORRECT %d\n", invalid);
+    }
+}
+
+#define PRINT_DATA
+void compress_byte(int arr[], int size){
+    printf("COMPRESSING\n");
+    for(uint i = 0 ; i < size ; i ++) {
+        uint tmp = arr[i];
+        arr[i] = 0;
+        const uchar* p =  (uchar*)&tmp;
+        pack::set_bits(p, CHAR_BIT - 1,  (uchar*)arr, ((i + 1) * CHAR_BIT) - 1, CHAR_BIT);
+        
+        //for debug
+#ifdef PRINT_DATA        
+        uint out = pack::get_byte( ((i + 1) * CHAR_BIT) - 1, (uchar*)arr, CHAR_BIT);
+        printf("%X ", out);
+#endif        
+    }
+
+    printf("\n");
+}
+
+#define MIN_NUM 1 
+#define MAX_NUM 100
+#define PRINT true
+int test_compression(uint NUM_ELEMS) {
+
+    int* array = new int[NUM_ELEMS * 2];
+    int* array_copy = new int[NUM_ELEMS * 2];
+
+
+    srand (time(NULL));
+
+
+    printf("original array:\n");
+    for(int i = 0 ; i <  NUM_ELEMS * 2 ; i++) { 
+        array[i] = MIN_NUM + rand() % MAX_NUM;
+        array_copy[i] = array[i];
+#ifdef PRINT_DATA        
+        printf("%X ", array[i]);
+#endif        
+    }
+    printf("\n");
+
+
+    //unite. two threads. may be recursive.
+    std::thread thread0(compress_byte, array, NUM_ELEMS);
+    std::thread thread1(compress_byte, &(array[NUM_ELEMS]), NUM_ELEMS);
+    thread0.join();    
+    thread1.join();   
+
+    // single thread
+    // compress_byte(array, NUM_ELEMS);
+    // compress_byte(&(array[NUM_ELEMS]), NUM_ELEMS);
+
+
+
+    uint half_width = CHAR_BIT * NUM_ELEMS;
+    pack::set_bits((uchar*)(&(array[NUM_ELEMS])),  half_width - 1, (uchar*)array, half_width * 2  - 1,  half_width);
+
+
+    //array_copy[6] = 0;  //try disvalidate
+    validate_compressed_bytes(array, array_copy, NUM_ELEMS * 2, PRINT);    
+
+    delete [] array;
+    delete [] array_copy;
+
+    return 0;
 }
 
 int main(int argc, char** argv) {
@@ -280,7 +372,8 @@ int main(int argc, char** argv) {
     if((strcmp("0", argv[1]) &&
         strcmp("1", argv[1]) &&
         strcmp("2", argv[1]) &&
-        strcmp("3", argv[1])) ) 
+        strcmp("3", argv[1]) &&
+        strcmp("4", argv[1])) ) 
     {
         print_usage();
         return 1;
@@ -312,6 +405,8 @@ int main(int argc, char** argv) {
             normal_operation();
             run_unit_test<gen_unit_test_2>("debug_log_file_unit_test_2.txt");
             run_unit_test<gen_unit_test_1>("debug_log_file_unit_test_1.txt");
+        case 4:
+            test_compression(d);
         break;
 
         default:
